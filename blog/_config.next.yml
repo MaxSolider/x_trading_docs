@@ -1,0 +1,78 @@
+# Next主题配置文件
+# 这个文件会覆盖themes/next/_config.yml中的设置
+
+# 站点信息
+site:
+  favicon: /favicon.ico
+  avatar: /images/avatar.jpg
+
+# 菜单配置
+menu:
+  首页: / || fa fa-home
+  归档: /archives/ || fa fa-archive
+  分类: /categories/ || fa fa-th
+  标签: /tags/ || fa fa-tags
+  关于: /about/ || fa fa-user
+
+# 侧边栏设置
+sidebar:
+  position: left
+  display: post
+  offset: 12
+  b2t: false
+  scrollpercent: false
+  onmobile: false
+
+# 社交链接
+social:
+  GitHub: https://github.com/yourusername || fab fa-github
+  Email: mailto:your@email.com || fa fa-envelope
+
+# 搜索
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+# 代码高亮
+codeblock:
+  theme:
+    light: default
+    dark: default
+  copy_button:
+    enable: true
+    show_result: true
+    style: flat
+
+# 数学公式
+math:
+  enable: true
+  per_page: true
+  mathjax:
+    enable: true
+    mhchem: true
+
+# 评论系统
+comments:
+  active: disqus
+  storage: true
+  lazyload: true
+  count: true
+  card_post_count: false
+  disqus:
+    shortname: your-disqus-shortname
+
+# 阅读进度条
+reading_progress:
+  enable: true
+  start_percent: 0
+  end_percent: 100
+  color: "#37c6c0"
+  height: 3px
+
+# 返回顶部
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: false
